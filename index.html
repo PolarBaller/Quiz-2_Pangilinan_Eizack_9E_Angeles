@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navigation Bar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <body>
+  <style>
+    .container{
+      background-color: black;
+      color: white;
+      opacity: 0.8;
+
+      
+      
+      
+    
+    
+    }
+    .form-demo{
+      background-color: transparent; 
+      color: white;
+      columns: 2;
+      
+
+
+      
+    }
+
+    .form-demo2{
+      background-color:transparent ;
+      color: white;
+      columns: 2;
+      columns: 100%;
+    }
+
+    .form-demo3{
+      background-color: transparent;
+      color: white;
+
+    }
+
+    .form-demo4{
+      background-color: transparent;
+      color: white;
+
+    }
+
+    .form-demo5{
+      background-color: transparent;
+      color: white;
+      flex-grow:1;
+      
+
+    
+
+    }
+
+    .form-demo6{
+      background-color: transparent;
+      color: white;
+      
+
+
+    }
+    
+    
+
+    body{
+      background-image: url('robot.jpg');
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    select{
+      object-fit: cover;
+      height: fit-content;
+      width: 100%;
+      
+
+    }
+
+
+       .navbar-custom{
+        background-color: slategrey;
+       }
+       .navbar-custom, .navbar-brand,
+       .navbar-custom, .nav-link{
+        color: white;
+       }
+       .navbar-custom, .navbar-link:hover{
+        color: white;
+       }
+
+       
+   
+  
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="https://obmontessori.edu.ph" target="blank">GRADE 09 EMERALD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://obmontessori.edu.ph/" target="blank">HOME</a>  
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="https://www.google.com/maps/place/Operation+Brotherhood+Montessori+Center/@15.1373131,120.5945366,17z/data=!3m1!4b1!4m6!3m5!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!8m2!3d15.1373131!4d120.5971115!16zL20vMGY1MHM2?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D" target="blank">LOCATION</a>  
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="https://obmontessori.edu.ph/contact-us" target="blank">CONTACT US</a>  
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+
+    </nav>
+
+<div class="container mt-5">
+
+<h1>Robotics Club Registration Form</h1>
+<div class="form-demo container mb-4"> 
+<form>
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="name">Name</label>
+<input type="input" class="form control" id="name" placeholder="What's your name?"> </div> </div>
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="age">Age</label>
+<input type="input" class="form control" id="age" placeholder="How old are you?"> </div> </div> </div> 
+
+<div class="form-demo2 container mb-4"> 
+<div class="form-row md-4">
+<div class="form-group col-md-4">
+<label for="email">Email</label>
+<input type="email" class="form control" id="email" placeholder="What's your email?"> 
+</div> </div> 
+<div class="form-row md-4">
+<div class="fomr-group col-md-4">
+<label for="number">Number</label>
+<input type="input" class="form control" id="number" placeholder="What's your number? "> 
+</div> </div> </div>
+
+<div class="form-demo3 container mb-4">
+ <label for="form-demo3">Preferred Robotics Topics</label> 
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check1">
+<label class="form-check-label" for="check1">Programming</label>
+</div> 
+
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check2">
+<label class="form-check-label" for="check2">Electronics</label>
+</div>
+
+<div class="form-check mb-3">
+<input type="checkbox" class="form-check-input" id="check3">
+<label class="form-check-label" for="check3">Mechanical Design</label>
+</div> </div>
+
+<div class="form-demo4 container mb-4">
+<label for="form-demo4">Robotics Experience Level</label>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio1" name="radio3" value="Beginner"> Beginner </div>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio2" name="radio3" value="Intermediate"> Intermediate </div>
+<div class="form-check mb-3">
+<input type="radio" class="form-check-input" id="radio3" name="radio3" value="Advanced"> Advanced </div>
+</div>  
+
+<div class="form-demo5 container mb-4">
+  <label for="formdemo5">Preferred Robotics Project</label>  
+  <div class=" form-fluid mb-3 form-check-label">
+ <label for="select">Select a project type </label> 
+<select id="select" name="select">
+<option value="programming">Making a website</option>
+<option value="electronics">Making a device </option>
+<option value="robotics">Making a robot </option> </select>
+</div> </div> 
+
+<div class="form-demo6 container mb-4">
+  <label for="form-demo6">Statement of Interest</label>
+  <div class="form-check mb-3"> </div>
+  <textarea id="textarea" name="statement" rows="5" cols="50" placeholder="Pour your heart out!"></textarea>
+</div> 
+
+<button type="submit" class="btn btn-primary btn-blue">Submit</button>
+<button type="reset" class="btn btn-danger">Reset</button>
+
+
+
+
+
+
+
+    
+
+</div>
+
+</div>
+
+ 
+
+
+    </form>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
